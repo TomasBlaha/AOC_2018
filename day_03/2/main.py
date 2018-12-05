@@ -40,6 +40,7 @@ for shapeObject in shapeObjects:
             if x in matrix:
                 if y in matrix[x]:
                     matrix[x][y].is_complete = False
+
                     matrix[x][y] = shapeObject
                     matrix[x][y].is_complete = False
                 else:
